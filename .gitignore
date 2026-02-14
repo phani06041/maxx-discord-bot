@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+
+# OS
+.DS_Store
+
+# Ollama
+.ollama/
+*.gguf
+
+# Logs
+*.log
+
+# Editor
+.vscode/
+.idea/
+
+# Cache / temp
+*.cache
