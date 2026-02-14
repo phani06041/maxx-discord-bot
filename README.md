@@ -69,11 +69,17 @@ Maxx/
     ├── llm_summarizer.py      # OpenAI-based summarization
     ├── ollama_summarizer.py   # Local Ollama-based summarization
     └── fallback_summarizer.py # Non-LLM fallback summarizer
+```
 ### Architecture Overview
 
 - The bot uses **semantic search** to answer questions strictly from manuals.
-- ** LLM usage is optional ** and routed safely:
+- **LLM usage is optional** and routed safely:
   - Ollama (local) for intent detection and summaries
   - OpenAI only if configured
 - Encryption utilities ensure secrets are never committed to GitHub.
 - Heavy LLM calls are isolated to avoid blocking the Discord event loop.
+
+
+
+---
+Made with ❤️ and an obsession by Phanindra
