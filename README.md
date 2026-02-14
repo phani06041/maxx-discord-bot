@@ -72,7 +72,7 @@ Maxx/
 ### Architecture Overview
 
 - The bot uses **semantic search** to answer questions strictly from manuals.
-- **LLM usage is optional** and routed safely:
+- ** LLM usage is optional ** and routed safely:
   - Ollama (local) for intent detection and summaries
   - OpenAI only if configured
 - Encryption utilities ensure secrets are never committed to GitHub.
