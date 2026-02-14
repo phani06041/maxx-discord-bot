@@ -24,3 +24,5 @@ venv/
 
 # Cache / temp
 *.cache
+Manuals/
+secrets.enc
