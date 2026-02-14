@@ -59,8 +59,8 @@ Maxx/
 ├── .gitignore                 # Git ignore rules (secrets, venv, cache)
 │
 ├── Manuals/                   # Instruction manuals (local or demo data)
-│   ├── multichallenge_alignerr.pdf
-│   └── multichallenge_alignerr.pages
+│   ├── multichallenge.pdf
+│   └── multichallenge.pages
 │
 └── llm/                       # LLM-related logic
     ├── __init__.py
